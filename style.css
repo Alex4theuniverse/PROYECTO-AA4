@@ -296,7 +296,9 @@ h1{
     box-sizing: border-box;
     
 }
-.list-footer {
+
+/* footer *
+.list-footer {  
     list-style: none;
     padding-left: 125px;
     text-decoration: none;
@@ -485,39 +487,39 @@ h1{
     justify-content: center;
     align-items: center;
     z-index: 1; /* Asegura que el modal esté por encima del resto del contenido */
-  }
+}
 
-  .modal-contentvideo {
-    background-color: #fefefe;
+.modal-contentvideo {
+    background-color: #030303;
     padding: 0px;
     border-radius: 8px;
     text-align: center;
     max-width: 80%; /* Ajusta según sea necesario */
     max-height: 80%; /* Ajusta según sea necesario */
     overflow: auto; /* Añade un desplazamiento si el contenido es demasiado grande */
-  }
+}
 
-  .modal-contentvideo video {
+.modal-contentvideo video {
     max-width: 100%; /* Ancho máximo del video */
     max-height: 100%; /* Altura máxima del video */
     margin: 0 auto; /* Centra el video horizontalmente */
     display: block; /* Evita el espacio adicional debajo del video */
-  }
+}
 
-  .cerrarvideo {
+.cerrarvideo {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
-  }
+}
 
-  .cerrarvideo:hover,
-  .cerrarvideo:focus {
-    color: black;
+.cerrarvideo:hover,
+.cerrarvideo:focus {
+    color: rgb(245, 241, 241);
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 
 @media screen {

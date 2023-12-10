@@ -5,60 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <script src="script.js" defer></script>
+    <script type="module" src="trailer/información.js"></script>
+    <script src="src/trailers.js"></script>
+    <script src="trailer/prueba.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="Trailers/prueba.js"></script>
     <title>INFOcinema</title>
 </head>
 <body>
     <header class="header">
         <a href="" class="logo tracking-in-contract">INFOcinema</a>
-
         <div class="social">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-            <a href="#"><i class="fa-brands fa-telegram"></i></a>
-        </div>
-
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
         <nav class="navbar">
-            <a href="#">Peliculas</a>
-            <a href="#">Series</a>
-            <a href="#">About us</a>
-            <!-- <a href="#">Contact</a> -->
+            <a href="#peliculas">Peliculas</a>
+            <!-- <a href="#">Series</a> proximanente implementar  -->
+            <a href="#mifooter">Acerca de nosotros</a>
+            <!-- <a href="#">Contactarnos</a> -->
         </nav>
     </header>
 
     <section class="banner">
         <div class="slider">
             <div class="slide active">
-                <img src="image/3.png" alt="">
+                <img src="imagenes/3.png" alt="">
                 <div class="left-info">
                     <div class="titulo-h1">
-                        <h1>Proximos</h1>
+                        <h1 class="tracking-in-contract">Proximos</h1>
                     </div>
                     <div class="content">
                         <h3>Bienvenidos a TuPeli</h3>
                         <p>Informate sobre sobre los ultimos estrenos de las peliculas , Sumérgete en el fascinante mundo del cine con nosotros 
                             y nos apasiona compartir información detallada, análisis perspicaces y las últimas novedades sobre películas de todos los géneros.</p>
-                        <a href="#" class="btn">Mas detalles</a>
+                        <a href="#moredetails" class="btn">Mas detalles</a>
                     </div>
                 </div>
                 <div class="right-info">
-                    <h1><br><br>Estrenos</h1>
+                    <h1 class="tracking-in-contract"><br><br>Estrenos</h1>
                     <h3></h3>
                 </div>
             </div>
 
             <div class="slide">
-                <img src="image/godzilaykong.png" alt="">
+                <img src="imagenes/godzilaykong.png" alt="">
                 <div class="left-info">
                     <div class="titulo-h1">
                         <h1>Godzilla </h1>
                     </div>
                     <div class="content">
-                        <h3>01. The Entry Fragger</h3>
-                        <p>Abhishek Shakya, also known by his in-game name SnakeEye, is the entry fragger of SEC C Esports. He is responsible for taking the first shots in a fight and creating openings for his teammates. He is a skilled and aggressive player who is not afraid to take risks. SnakeEye has been playing BGMI since its release in 2021. SnakeEye is a key player for SEC C Esports.</p>
-                        <a href="#" class="btn">More Details</a>
+                        <!-- <h3>01. The Entry Fragger</h3> -->
+                        <p>¡La batalla épica continúa! La película de Legendary Pictures continúa el explosivo enfrentamiento de “Godzilla vs. Kong” con una aventura completamente nueva que enfrenta al todopoderoso Kong y al temible Godzilla contra una colosal amenaza no descubierta escondida dentro de nuestro mundo, desafiando su propia existencia y la nuestra. “Godzilla y Kong: El nuevo imperio” profundiza en las historias de estos Titanes y sus orígenes, así como en los misterios de la Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre.</p>
+                        <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-Godzilla y Kong_ El nuevo imperio _ Tráiler Oficial _ Doblado-(1080p).mp4')">Trailer</a>
                     </div>
                 </div>
                 <div class="right-info">
@@ -68,15 +67,14 @@
             </div>
 
             <div class="slide">
-                <img src="image/28.png" alt="">
+                <img src="imagenes/28.png" alt="">
                 <div class="left-info">
                     <div class="titulo-h1">
                         <h1>El Planeta </h1>
                     </div>
                     <div class="content">
-                        <h3>02. The Supporter</h3>
-                        <p>Ashish Shakya, in-game name Venom, is the support player of Team SEC C in Battlegrounds Mobile India (BGMI). He is known for his aggressive playstyle and his ability to clutch in difficult situations. He is also a skilled sniper and fragger.</p>
-                        <a href="#" class="btn">More Details</a>
+                        <p>La historia del Planeta de los Simios vuelve a renacer con esta nueva entrega que estará conectada con la trilogía anterior y servirá como una continuación a los acontecimientos que entonces tuvieron lugar.</p>
+                        <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-El Planeta De Los Simios_ Nuevo Reino (2024) Teaser Tráiler Oficial Español Latino-(1080p).mp4')">Trailer</a>
                     </div>
                 </div>
                 <div class="right-info">
@@ -86,15 +84,14 @@
             </div>
 
             <div class="slide">
-                <img src="image/20.png" alt="">
+                <img src="imagenes/20.png" alt="">
                 <div class="left-info">
                     <div class="titulo-h1">
                         <h1>DU</h1>
                     </div>
                     <div class="content">
-                        <h3>03. The IGL</h3>
-                        <p>Pankaj Rajpoot, in-game name Flash, is the in-game leader (IGL) of Team SEC C in Battlegrounds Mobile India (BGMI). He is responsible for making strategic decisions during matches and leading his team to victory. He is known for his calm and composed demeanor under pressure, and his ability to make quick decisions.</p>
-                        <a href="#" class="btn">More Details</a>
+                        <p>La saga continúa cuando el galardonado cineasta Denis Villeneuve se embarca en "Duna: Parte Dos", el próximo capítulo de la célebre novela "Duna" de Frank Herbert, con un elenco internacional de estrellas ampliado. La película, de Warner Bros. Pictures y Legendary Pictures, es la continuación muy esperada de "Duna", seis veces ganadora del Premio de la Academia de 2021.</p>
+                        <a href="#" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-Duna_ Parte Dos _ Tráiler Oficial 2 _ Subtitulado-(1080p).mp4')">Trailer</a>
                     </div>
                 </div>
                 <div class="right-info">
@@ -104,15 +101,14 @@
             </div>
 
             <div class="slide">
-                <img src="image/15.png" alt="">
+                <img src="imagenes/15.png" alt="">
                 <div class="left-info">
                     <div class="titulo-h1">
                         <h1>FURI</h1>
                     </div>
                     <div class="content">
-                        <h3>04. The All Rounder</h3>
-                        <p>Shivam Rajput, in-game name Mr. Rajput, is an all-rounder of Team SEC C in Battlegrounds Mobile India (BGMI). He is known for his versatility and his ability to play any role in a match. He is a skilled fragger, sniper, and support player.</p>
-                        <a href="#" class="btn">More Details</a>
+                        <p>Anya Taylor-Joy y Chris Hemsworth protagonizan “Furiosa”, de la mente maestra del ganador del Premio de la Academia George Miller, el tan esperado regreso al icónico mundo distópico que creó hace más de 30 años con las películas fundamentales de “Mad Max”. Miller ahora vuelve a pasar página con una nueva aventura de acción original e independiente que revelará los orígenes del poderoso personaje del éxito global ganador de múltiples premios Oscar, “Mad Max: Fury Road”. La nueva película de Warner Bros. Pictures y Village Roadshow Pictures es producida por Miller y su socio de toda la vida, el productor nominado al Oscar Doug Mitchell (“Mad Max: Fury Road”, “Babe”), bajo su compañía Kennedy Miller Mitchell, con sede en Australia.</p>
+                        <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-FURIOSA Tráiler Español Latino Subtitulado (2024) Mad Max-(1080p).mp4')">Trailer</a>
                     </div>
                 </div>
                 <div class="right-info">
@@ -122,15 +118,14 @@
             </div>
 
             <div class="slide">
-                <img src="image/32.png" alt="">
+                <img src="imagenes/32.png" alt="">
                 <div class="left-info">
                     <div class="titulo-h1">
                         <h1>INTENSA</h1>
                     </div>
                     <div class="content">
-                        <h3>05. The Extra</h3>
-                        <p>Shashank Pal, in-game name Sassy Boi, is an extra player of Team SEC C in Battlegrounds Mobile India (BGMI). He is a skilled player who is able to fill in for any role in the team. He is also a good coach and he helps the team to improve their gameplay.</p>
-                        <a href="#" class="btn">More Details</a>
+                        <p>Con base en el Cuartel General, el centro de control dentro de la mente de Riley, una niña de 11 años de edad, cinco Emociones tienen mucho trabajo. Ellas están lideradas por la optimista Alegría cuya misión es asegurarse de que Riley permanezca feliz. Temor encabeza la seguridad, Furia asegura que todo sea justo y Desagrado impide que Riley se intoxique, tanto física como socialmente. Tristeza no está exactamente segura de cuál es su rol y, francamente, nadie lo sabe.</p>
+                        <a href="#moredetails" class="btn" onclick="mostrarVideo('../trailer/Y2meta.app - IntensaMente 2 _ Tráiler Oficial _ Doblado con subtítulos descriptivos-(1080p).mp4')">Trailer</a>
                     </div>
                 </div>
                 <div class="right-info">
@@ -139,16 +134,119 @@
                 </div>
             </div>
         </div>
+        <div id="videoModal" class="modalvideo">
+            <div class="modal-contentvideo">
+                <span class="cerrarvideo" onclick="cerrarVideo()">&times;</span>
+                <video id="videoElement" controls>
+                    <!-- La fuente del video se establecerá dinámicamente desde JavaScript -->
+                    Tu navegador no soporta el tag de video.
+                </video>
+            </div>
+        </div>
 
         <div class="navigation">
             <span class="prev-btn"><i class="fa-solid fa-chevron-left fa-3x"></i></span>
             <span class="next-btn"><i class="fa-solid fa-chevron-right fa-3x"></i></span>
         </div>
+
     </section>
-    <section>
-    <h2 class="cartelera tracking-in-contract">Cartelera</h2>
+    <main>
+    <h2 class="cartelera tracking-in-contract" id="peliculas">Cartelera</h2>
+    <!-- seccion-peliculas -->
+    <section class="seccion-peliculas"> 
+        <div class="contenedor scale-up-horizontal-center">
+
+            <!-- Primera fila de 4 imágenes -->
+            <div class="fila">
+                <!-- Película 1 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/el diario greg.jpg" alt="Imagen 1">
+                    <button class="boton-informacion" id="mostrarDetalles1">Más información</button>
+                </div>
+
+                <!-- Película 2 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/5nights.jpg" alt="Imagen 2">
+                    <button class="boton-informacion" id="mostrarDetalles2">Más información</button>
+                </div>
+
+                <!-- Película 3 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/wonka.jpg" alt="Imagen 3">
+                    <button class="boton-informacion" id="mostrarDetalles3">Más información</button>
+                </div>
+
+                <!-- Película 4 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/capitanaM.jpg" alt="Imagen 4">
+                    <button class="boton-informacion" id="mostrarDetalles4">Más información</button>
+                </div>
+            </div>
+
+            <!-- Segunda fila de 4 imágenes -->
+            <div class="fila">
+                <!-- Película 5 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/oppenheimer.jpg" alt="Imagen 5">
+                    <button class="boton-informacion" id="mostrarDetalles5">Más información</button>
+                </div>
+
+                <!-- Película 6 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/napoleon.jpg" alt="Imagen 6">
+                    <button class="boton-informacion" id="mostrarDetalles6">Más información</button>
+                </div>
+
+                <!-- Película 7 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/leo.jpg" alt="Imagen 7">
+                    <button class="boton-informacion" id="mostrarDetalles7">Más información</button>
+                </div>
+
+                <!-- Película 8 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/assasinlunajpg.jpg" alt="Imagen 8">
+                    <button class="boton-informacion" id="mostrarDetalles8">Más información</button>
+                </div>
+            </div>
+            <!-- tercera fila de 4 imágenes -->
+            <div class="fila">
+                <!-- Película 9 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/megalodón.jpg" alt="Imagen 1">
+                    <button class="boton-informacion" id="mostrarDetalles9">Más información</button>
+                </div>
+
+                <!-- Película 10 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/saw.jpg" alt="Imagen 2">
+                    <button class="boton-informacion" id="mostrarDetalles10">Más información</button>
+                </div>
+
+                <!-- Película 11 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/noche de paz.jpg" alt="Imagen 3">
+                    <button class="boton-informacion" id="mostrarDetalles11">Más información</button>
+                </div>
+
+                <!-- Película 12 -->
+                <div class="marco-imagen">
+                    <img src="imagenes/avatar2.jpg" alt="Imagen 4">
+                    <button class="boton-informacion" id="mostrarDetalles12">Más información</button>
+                </div>
+            </div>
+            <div id="modal" class="modal">
+                <div class="contenido-modal">
+                    <span class="cerrar" id="cerrar">&times;</span>
+                    <img id="imagenModal" src="" alt="Imagen en modal">
+                    <div id="informacionModal" class="informacion-modal"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion-trailers -->
         <section>
-        <div class="container ">
+        <div class="container scale-up-horizontal-center" id="moredetails">
                 <div class="descripcion">
                     <h3 class="cartelera-3">WONKA</h3>
                     <p class="info-peli">Basado en el extraordinario personaje central de Charlie y la fábrica de chocolate,
@@ -170,46 +268,165 @@
                         <li style="color: yellow;">Director: Paul King</li>
                         <li style="color: yellowgreen;">Actores: Timothée Chalamet, Calah Lane, Keegan-Michael Key, Olivia Colman, Rowan Atkinson, Hugh Grant, Sally Hawkins, Matt Lucas, Mathew Baynton</li>
                         <li style="color: aqua;">Genero: Comedia / Familia / Fantasía / cine</li>
-                    </ul>
-
-                    
+                    </ul>                   
             </div>
 
             <div class="video">
                 <!-- Aquí puedes poner el código para insertar el video -->
                 <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
-                <video src="Trailers/Y2meta.app-WONKA _ Tráiler Oficial _ Doblado-(1080p).mp4" controls="" width="100%" height="315"></video>
+                <video src="trailer/Y2meta.app-WONKA _ Tráiler Oficial _ Doblado-(1080p).mp4" controls="" width="100%" height="315"></video>
             </div>
 
         </section>
-            <section>
+        <section>
                 <div class="container">
+                    <div class="video">
+                        <!-- Aquí puedes poner el código para insertar el video -->
+                        <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
+                        <video src="trailer/Y2meta.app-The Marvels de Marvel Studios _ Tráiler Oficial _ Doblado con subtítulos descriptivos-(1080p).mp4" controls="" width="100%" height="315"></video>
+                </div>
+                <div class="descripcion">
+                        <h3 class="cartelera-3">The Marvels de Marvel Studios</h3>
+                        <p class="info-peli">Esta es la descripción del video. Puedes agregar más contenido aquí según tus necesidades.</p>
+                        <div class="chart-container">
+                        <div class="chart" id="rating-chart">
+                        <div class="percentage" id="rating-percentage">0%</div>
+                        </div>
+                        <ul class="rating" id="star-rating">
+                            <li class="star" data-value="1">&#9733;</li>
+                            <li class="star" data-value="2">&#9733;</li>
+                            <li class="star" data-value="3">&#9733;</li>
+                            <li class="star" data-value="4">&#9733;</li>
+                            <li class="star" data-value="5">&#9733;</li>
+                        </ul>
+                    </div>
+                <ul class="género">
+                    <li style="color: yellow;">Director: Nia DaCosta</li>
+                    <li style="color: yellowgreen;">Actores: Brie Larson, Teyonah Parris, Iman Vellani, Zawe Ashton, Park Seo-jun, Samuel L. Jackson, Gary Lewis, Zenobia Shroff, Mohan Kapur</li>
+                    <li style="color: aqua;">Genero: Acción / Aventuras / ciencia ficcion / cine</li>
+                </ul>   
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                    <div class="descripcion">
+                        <h3 class="cartelera-3">OPPENHEIMER</h3>
+                        <p class="info-peli">Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica.
+                        Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.</p>
+                        <div class="chart-container">
+                            <div class="chart" id="rating-chart">
+                        <div class="percentage" id="rating-percentage">0%</div>
+                        </div>
+                            <ul class="rating" id="star-rating">
+                            <li class="star" data-value="1">&#9733;</li>
+                            <li class="star" data-value="2">&#9733;</li>
+                            <li class="star" data-value="3">&#9733;</li>
+                            <li class="star" data-value="4">&#9733;</li>
+                            <li class="star" data-value="5">&#9733;</li>
+                            </ul>
+                        </div>
+                <ul class="género">
+                    <li style="color: yellow;">Director: Christopher Nolan</li>
+                    <li style="color: yellowgreen;">Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Benny Safdie, Michael Angarano, Josh Hartnett, Rami Malek</li>
+                    <li style="color: aqua;">Genero: Drama / Históricas / cine</li>
+                </ul>  
+            </div>
+            <div class="video">
+                <!-- Aquí puedes poner el código para insertar el video -->
+                <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
+                <video src="trailer/Y2meta.app-OPPENHEIMER - Tráiler Oficial - Subtitulado - (Universal Studios) - HD-(1080p).mp4" controls="" width="100%" height="315"></video>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+            <div class="video">
+                <!-- Aquí puedes poner el código para insertar el video -->
+                <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
+                <video src="trailer/Y2meta.app-Leo _ Tráiler oficial _ Netflix-(1080p).mp4" controls="" width="100%" height="315"></video>
+            </div>
+            <div class="descripcion">
+                <h3 class="cartelera-3">Leo</h3>
+                <p class="info-peli">Leo (Sandler) es un lagarto de 74 años que lleva atrapado en el mismo aula de Florida durante décadas con su compañera de terrario,
+                    una tortuga (Bill Burr). Cuando se entera de que solo le queda un año de vida,
+                    Leo planea escapar para experimentar la vida en el exterior, pero entonces comienzan sus problemas.</p>
+                <div class="chart-container">
+                    <div class="chart" id="rating-chart">
+                    <div class="percentage" id="rating-percentage">0%</div>
+                    </div>
+                    <ul class="rating" id="star-rating">
+                        <li class="star" data-value="1">&#9733;</li>
+                        <li class="star" data-value="2">&#9733;</li>
+                        <li class="star" data-value="3">&#9733;</li>
+                        <li class="star" data-value="4">&#9733;</li>
+                        <li class="star" data-value="5">&#9733;</li>
+                    </ul>
+                </div>
+            <ul class="género">
+                <li style="color: yellow;">Director: Robert Smigel, Robert Marianetti, David Wachtenheim</li>
+                <li style="color: yellowgreen;">Adam Sandler, Bill Burr, Cecily Strong, Jason Alexander, Rob Schneider, Allison Strong, Jo Koy, Sadie Sandler, Sunny Sandler</li>
+                <li style="color: aqua;">Animación / Comedia / Familia / cine</li>
+            </ul>   
+            </div>
+        </section>
+        </section>
+        <section>
+            <div class="container">
+                <div class="descripcion">
+                    <h3 class="cartelera-3">NAPOLEÓN</h3>
+                        <p class="info-peli">Una mirada personal a los orígenes del líder militar francés y su rápido y despiadado ascenso a emperador.
+                            La historia se ve a través de la lente de la relación adictiva y volátil de Napoleón Bonaparte con su esposa y único amor verdadero, Josefina.</p>
+                        <div class="chart-container">
+                            <div class="chart" id="rating-chart">
+                        <div class="percentage" id="rating-percentage">0%</div>
+                        </div>
+                            <ul class="rating" id="star-rating">
+                                <li class="star" data-value="1">&#9733;</li>
+                                <li class="star" data-value="2">&#9733;</li>
+                                <li class="star" data-value="3">&#9733;</li>
+                                <li class="star" data-value="4">&#9733;</li>
+                                <li class="star" data-value="5">&#9733;</li>
+                            </ul>
+                        </div>
+                    <ul class="género">
+                        <li style="color: yellow;">Director: Ridley Scott</li>
+                        <li style="color: yellowgreen;">Actores: Timothée Chalamet, Calah Lane, Keegan-Michael Key, Olivia Colman, Rowan Atkinson, Hugh Grant, Sally Hawkins, Matt Lucas, Mathew Baynton</li>
+                        <li style="color: aqua;">Genero: Drama / Históricas / Bélica / cine</li>
+                    </ul>  
+                </div>
                 <div class="video">
                     <!-- Aquí puedes poner el código para insertar el video -->
                     <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
-                    <iframe width="100%" height="315" src="Trailers/Y2meta.app-The Marvels de Marvel Studios _ Tráiler Oficial _ Doblado con subtítulos descriptivos-(1080p).mp4" frameborder="0" allowfullscreen></iframe>
+                    <video src="trailer/Y2meta.app-NAPOLEÓN. Tráiler oficial en español HD. Exclusivamente en cines .-(1080p).mp4" controls="" width="100%" height="315"></video>
                 </div>
-
-
-            <div class="descripcion">
-                    <h3 class="cartelera-3">The Marvels de Marvel Studios</h3>
-                    <p class="info-peli">Esta es la descripción del video. Puedes agregar más contenido aquí según tus necesidades.</p>
             </div>
-        
         </section>
-            <div class="container">
-                <div class="descripcion">
-                <h3 class="cartelera-3">OPPENHEIMER</h3>
-                    <p class="info-peli">Esta es la descripción del video. Puedes agregar más contenido aquí según tus necesidades.</p>
+    </main>
+    <footer class="footer" id="mifooter">
+        <div class="comta-footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="h3-footer">Sobre nosotros</h3>
+                    <p class="list-footer">Somos una página web dedicada a la información sobre películas. Ofrecemos reseñas, noticias, tráilers y más.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="h3-footer">Redes Sociales</h3>
+                    <ul class="list-footer social">
+                        <li class="footer-li"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="footer-li"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li class="footer-li"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
             </div>
-
-            <div class="video">
-                <!-- Aquí puedes poner el código para insertar el video -->
-                <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
-                <video src="Trailers/Y2meta.app-OPPENHEIMER - Tráiler Oficial - Subtitulado - (Universal Studios) - HD-(1080p).mp4" controls="" width="100%" height="315"></video>
+            <div class="col-md-4">
+                <h3 class="h3-footer">Contacto</h3>
+                <ul class="list-footer">
+                    <li class="footer-li"><a href="#">INFOcinema<i class="fa-solid fa-at"></i>mail.com</a></li>
+                    <li class="footer-li"><a href="#">twitter</a></li>
+                    <li class="footer-li"><a href="#">INFOcinema</a></li>
+                </ul>
+            </div>
             </div>
         </div>
-        </section>
-    </section>
+    </footer>
 </body>
 </html>

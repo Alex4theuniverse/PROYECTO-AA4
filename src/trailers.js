@@ -1,3 +1,5 @@
+// FUCNION PARA QUE SE HABRA EL VIDEO EN UNA VENTANA EN EL CENTRO DE LA PANTALLA 
+
 function mostrarVideo(videoSrc) {
     // Obtén el modal y el video
     const modal = document.getElementById("videoModal");

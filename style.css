@@ -297,7 +297,7 @@ h1{
     
 }
 
-/* footer *
+ /* footer */
 .list-footer {  
     list-style: none;
     padding-left: 125px;
@@ -307,7 +307,7 @@ h1{
 .footer-li a {
     text-decoration: none;
     color: white;
-}
+} 
 
     /* Estilos para el gráfico circular */
     .chart-container {

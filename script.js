@@ -1,3 +1,4 @@
+// cambiado de imagenes del header slider 
 const nxtBtn = document.querySelector(".next-btn");
 const prvBtn = document.querySelector(".prev-btn");
 const slides = document.querySelectorAll(".slide");

@@ -18,15 +18,15 @@ const imagenModal = document.getElementById("imagenModal");
 const informacionModal = document.getElementById("informacionModal");
 
 // Agrega eventos de clic a los botones de "Más información"
-btnDetalles1.addEventListener("click", mostrarModal.bind(null, "../imagenes/el diario greg.jpg",
+btnDetalles1.addEventListener("click", mostrarModal.bind(null, "/imagenes/el diario greg.jpg",
 "Para Greg las vacaciones de invierno están siendo un poco duras, tras quedarse atrapado con su familia en la nieve y preocupado por conseguir una nueva consola." ));
-btnDetalles2.addEventListener("click", mostrarModal.bind(null, "../imagenes/5nights.jpg",
+btnDetalles2.addEventListener("click", mostrarModal.bind(null, "./imagenes/5nights.jpg",
 "Un guardia de seguridad con problemas comienza a trabajar en Freddy Fazbear's Pizza. Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de superar."));
-btnDetalles3.addEventListener("click", mostrarModal.bind(null, "../imagenes/wonka.jpg",
+btnDetalles3.addEventListener("click", mostrarModal.bind(null, "./imagenes/wonka.jpg",
 "Basado en el extraordinario personaje de Charlie y la fábrica de chocolate, el libro infantil más emblemático de Roald Dahl y uno de los libros infantiles más vendidos de todos los tiempos, Wonka cuenta la maravillosa historia de cómo el mayor inventor, mago y el chocolatero se convirtió en el querido Willy Wonka que conocemos hoy."));
-btnDetalles4.addEventListener("click", mostrarModal.bind(null, "../imagenes/capitanaM.jpg",
+btnDetalles4.addEventListener("click", mostrarModal.bind(null, "./imagenes/capitanaM.jpg",
 "Cuando sus obligaciones la envían a un agujero de gusano vinculado a un revolucionario kree, los poderes de Carol Danvers, la capitana Marvel, se entremezclan con los de Kamala Khan, también conocida como la Sra. Marvel y la sobrina de Carol, ahora astronauta de S.A.B.E.R., Monica Rambeau. Juntas, deberán salvar el universo como The Marvels."));
-btnDetalles5.addEventListener("click", mostrarModal.bind(null, "../imagenes/oppenheimer.jpg",
+btnDetalles5.addEventListener("click", mostrarModal.bind(null, "./imagenes/oppenheimer.jpg",
 "La película está protagonizada por Cillian Murphy como J. Robert Oppenheimer y Emily Blunt como su esposa, la bióloga y botánica Katherine Kitty Oppenheimer. El ganador del Oscar® Matt Damon interpreta al general Leslie Groves Jr. director del Proyecto Manhattan, y Robert Downey, Jr. interpreta a Lewis Strauss, comisionado fundador de la Comisión de Energía Atómica de EE. UU."));
 btnDetalles6.addEventListener("click", mostrarModal.bind(null, "../imagenes/napoleon.jpg",
 "Napoleón es un espectáculo lleno de épica y acción que detalla el enrevesado ascenso y caída del icónico Emperador francés Napoleón Bonaparte, interpretado por el ganador del Oscar® Joaquim Phoenix. Tras un rodaje orquestado por el legendario director Ridley Scott sobre un deslumbrante telón de fondo a gran escala, la película muestra la incesante carrera de Bonaparte hasta el poder, a través del prisma de la adictiva y volátil relación con Josefina, la que fue su único amor verdadero, presentando sus visionarias tácticas políticas y militares a través de algunas de las secuencias prácticas de batallas más dinámicas jamás filmadas."));

@@ -10,12 +10,14 @@
     <script src="src/Stars.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="imagenes/rojofavicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <title>INFOcinema</title>
 </head>
 <body>
     <header class="header">
         <a href="" class="logo tracking-in-contract">INFOcinema</a>
-        <div class="social">
+        <div class="social ">
             <!-- <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> </a>
             <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
             <a href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>
@@ -28,214 +30,215 @@
             <!-- <a href="#">Contactarnos</a> -->
         </nav>
     </header>
-    <section class="banner">
-        <div class="slider">
-            <div class="slide active">
-                <img src="imagenes/3.png" alt="">
-                <div class="left-info">
-                    <div class="titulo-h1">
-                        <h1 class="tracking-in-contract">Proximos</h1>
-                    </div>
-                    <div class="content">
-                        <h3>Bienvenidos a TuPeli</h3>
-                        <p>Informate sobre sobre los ultimos estrenos de las peliculas , Sumérgete en el fascinante mundo del cine con nosotros 
-                            y nos apasiona compartir información detallada, análisis perspicaces y las últimas novedades sobre películas de todos los géneros.</p>
-                        <a href="#moredetails" class="btn">Mas detalles</a>
-                    </div>
-                </div>
-                <div class="right-info">
-                    <h1 class="tracking-in-contract"><br><br>Estrenos</h1>
-                    <h3></h3>
-                </div>
-            </div>
-
-            <div class="slide">
-                <img src="imagenes/godzilaykong.png" alt="">
-                <div class="left-info">
-                    <div class="titulo-h1">
-                        <h1>Godzilla </h1>
-                    </div>
-                    <div class="content">
-                        <!-- <h3>01. The Entry Fragger</h3> -->
-                        <p>¡La batalla épica continúa! La película de Legendary Pictures continúa el explosivo enfrentamiento de “Godzilla vs. Kong” con una aventura completamente nueva que enfrenta al todopoderoso Kong y al temible Godzilla contra una colosal amenaza no descubierta escondida dentro de nuestro mundo, desafiando su propia existencia y la nuestra. “Godzilla y Kong: El nuevo imperio” profundiza en las historias de estos Titanes y sus orígenes, así como en los misterios de la Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre.</p>
-                        <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-Godzilla y Kong_ El nuevo imperio _ Tráiler Oficial _ Doblado-(1080p).mp4')">Trailer</a>
-                    </div>
-                </div>
-                <div class="right-info">
-                    <h1><br>y kong</h1>
-                    <h3>El Nuevo Imperio</h3>
-                </div>
-            </div>
-
-            <div class="slide">
-                <img src="imagenes/28.png" alt="">
-                <div class="left-info">
-                    <div class="titulo-h1">
-                        <h1>El Planeta </h1>
-                    </div>
-                    <div class="content">
-                        <p>La historia del Planeta de los Simios vuelve a renacer con esta nueva entrega que estará conectada con la trilogía anterior y servirá como una continuación a los acontecimientos que entonces tuvieron lugar.</p>
-                        <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-El Planeta De Los Simios_ Nuevo Reino (2024) Teaser Tráiler Oficial Español Latino-(1080p).mp4')">Trailer</a>
-                    </div>
-                </div>
-                <div class="right-info">
-                    <h1 style="padding-top: 15px;">De los Simios</h1>
-                    <h3>Nuevo Reino</h3>
-                </div>
-            </div>
-
-            <div class="slide">
-                <img src="imagenes/20.png" alt="">
-                <div class="left-info">
-                    <div class="titulo-h1">
-                        <h1>DU</h1>
-                    </div>
-                    <div class="content">
-                        <p>La saga continúa cuando el galardonado cineasta Denis Villeneuve se embarca en "Duna: Parte Dos", el próximo capítulo de la célebre novela "Duna" de Frank Herbert, con un elenco internacional de estrellas ampliado. La película, de Warner Bros. Pictures y Legendary Pictures, es la continuación muy esperada de "Duna", seis veces ganadora del Premio de la Academia de 2021.</p>
-                        <a href="#" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-Duna_ Parte Dos _ Tráiler Oficial 2 _ Subtitulado-(1080p).mp4')">Trailer</a>
-                    </div>
-                </div>
-                <div class="right-info">
-                    <h1>NE</h1>
-                    <!-- <h3></h3> -->
-                </div>
-            </div>
-
-            <div class="slide">
-                <img src="imagenes/15.png" alt="">
-                <div class="left-info">
-                    <div class="titulo-h1">
-                        <h1>FURI</h1>
-                    </div>
-                    <div class="content">
-                        <p>Anya Taylor-Joy y Chris Hemsworth protagonizan “Furiosa”, de la mente maestra del ganador del Premio de la Academia George Miller, el tan esperado regreso al icónico mundo distópico que creó hace más de 30 años con las películas fundamentales de “Mad Max”. Miller ahora vuelve a pasar página con una nueva aventura de acción original e independiente que revelará los orígenes del poderoso personaje del éxito global ganador de múltiples premios Oscar, “Mad Max: Fury Road”. La nueva película de Warner Bros. Pictures y Village Roadshow Pictures es producida por Miller y su socio de toda la vida, el productor nominado al Oscar Doug Mitchell (“Mad Max: Fury Road”, “Babe”), bajo su compañía Kennedy Miller Mitchell, con sede en Australia.</p>
-                        <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-FURIOSA Tráiler Español Latino Subtitulado (2024) Mad Max-(1080p).mp4')">Trailer</a>
-                    </div>
-                </div>
-                <div class="right-info">
-                    <h1>OSA</h1>
-                    <h3></h3>
-                </div>
-            </div>
-
-            <div class="slide">
-                <img src="imagenes/32.png" alt="">
-                <div class="left-info">
-                    <div class="titulo-h1">
-                        <h1>INTENSA</h1>
-                    </div>
-                    <div class="content">
-                        <p>Con base en el Cuartel General, el centro de control dentro de la mente de Riley, una niña de 11 años de edad, cinco Emociones tienen mucho trabajo. Ellas están lideradas por la optimista Alegría cuya misión es asegurarse de que Riley permanezca feliz. Temor encabeza la seguridad, Furia asegura que todo sea justo y Desagrado impide que Riley se intoxique, tanto física como socialmente. Tristeza no está exactamente segura de cuál es su rol y, francamente, nadie lo sabe.</p>
-                        <a href="#moredetails" class="btn" onclick="mostrarVideo('../trailer/Y2meta.app - IntensaMente 2 _ Tráiler Oficial _ Doblado con subtítulos descriptivos-(1080p).mp4')">Trailer</a>
-                    </div>
-                </div>
-                <div class="right-info">
-                    <h1>MENTE 2</h1>
-                    <h3></h3>
-                </div>
-            </div>
-        </div>
-        <div id="videoModal" class="modalvideo">
-            <div class="modal-contentvideo">
-                <span class="cerrarvideo" onclick="cerrarVideo()">&times;</span>
-                <video id="videoElement" controls>
-                    <!-- La fuente del video se establecerá dinámicamente desde JavaScript -->
-                    Tu navegador no soporta el tag de video.
-                </video>
-            </div>
-        </div>
-
-        <div class="navigation">
-            <span class="prev-btn"><i class="fa-solid fa-chevron-left fa-3x"></i></span>
-            <span class="next-btn"><i class="fa-solid fa-chevron-right fa-3x"></i></span>
-        </div>
-
-    </section>
     <main>
+        <section class="banner">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="imagenes/3.png" alt="">
+                <div class="left-info"> 
+                        <div class="titulo-h1">
+                            <h1 class="tracking-in-contract">Proximos</h1>
+                        </div>
+                        <div class="content ">
+                            <h3>Bienvenidos a TuPeli</h3>
+                            <p>Informate sobre sobre los ultimos estrenos de las peliculas , Sumérgete en el fascinante mundo del cine con nosotros 
+                                y nos apasiona compartir información detallada, análisis perspicaces y las últimas novedades sobre películas de todos los géneros.</p>
+                            <a href="#moredetails" class="btn ">Mas detalles</a>
+                        </div>
+                    </div>
+                    <div class="right-info ">
+                        <h1 class="tracking-in-contract"><br><br>Estrenos</h1>
+                        <h3></h3>
+                    </div>
+                </div>
+    
+                <div class="slide">
+                    <img src="imagenes/godzilaykong.png" alt="">
+                    <div class="left-info">
+                        <div class="titulo-h1">
+                            <h1>Godzilla </h1>
+                        </div>
+                        <div class="content">
+                            <!-- <h3>01. The Entry Fragger</h3> -->
+                            <p>¡La batalla épica continúa! La película de Legendary Pictures continúa el explosivo enfrentamiento de “Godzilla vs. Kong” con una aventura completamente nueva que enfrenta al todopoderoso Kong y al temible Godzilla contra una colosal amenaza no descubierta escondida dentro de nuestro mundo, desafiando su propia existencia y la nuestra. “Godzilla y Kong: El nuevo imperio” profundiza en las historias de estos Titanes y sus orígenes, así como en los misterios de la Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre.</p>
+                            <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-Godzilla y Kong_ El nuevo imperio _ Tráiler Oficial _ Doblado-(1080p).mp4')">Trailer</a>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h1><br>y kong</h1>
+                        <h3>El Nuevo Imperio</h3>
+                    </div>
+                </div>
+    
+                <div class="slide">
+                    <img src="imagenes/28.png" alt="">
+                    <div class="left-info">
+                        <div class="titulo-h1">
+                            <h1>El Planeta </h1>
+                        </div>
+                        <div class="content">
+                            <p>La historia del Planeta de los Simios vuelve a renacer con esta nueva entrega que estará conectada con la trilogía anterior y servirá como una continuación a los acontecimientos que entonces tuvieron lugar.</p>
+                            <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-El Planeta De Los Simios_ Nuevo Reino (2024) Teaser Tráiler Oficial Español Latino-(1080p).mp4')">Trailer</a>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h1 style="padding-top: 15px;">De los Simios</h1>
+                        <h3>Nuevo Reino</h3>
+                    </div>
+                </div>
+    
+                <div class="slide">
+                    <img src="imagenes/20.png" alt="">
+                    <div class="left-info">
+                        <div class="titulo-h1">
+                            <h1>DU</h1>
+                        </div>
+                        <div class="content">
+                            <p>La saga continúa cuando el galardonado cineasta Denis Villeneuve se embarca en "Duna: Parte Dos", el próximo capítulo de la célebre novela "Duna" de Frank Herbert, con un elenco internacional de estrellas ampliado. La película, de Warner Bros. Pictures y Legendary Pictures, es la continuación muy esperada de "Duna", seis veces ganadora del Premio de la Academia de 2021.</p>
+                            <a href="#" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-Duna_ Parte Dos _ Tráiler Oficial 2 _ Subtitulado-(1080p).mp4')">Trailer</a>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h1>NE</h1>
+                        <!-- <h3></h3> -->
+                    </div>
+                </div>
+    
+                <div class="slide">
+                    <img src="imagenes/15.png" alt="">
+                    <div class="left-info">
+                        <div class="titulo-h1">
+                            <h1>FURI</h1>
+                        </div>
+                        <div class="content">
+                            <p>Anya Taylor-Joy y Chris Hemsworth protagonizan “Furiosa”, de la mente maestra del ganador del Premio de la Academia George Miller, el tan esperado regreso al icónico mundo distópico que creó hace más de 30 años con las películas fundamentales de “Mad Max”. Miller ahora vuelve a pasar página con una nueva aventura de acción original e independiente que revelará los orígenes del poderoso personaje del éxito global ganador de múltiples premios Oscar, “Mad Max: Fury Road”. La nueva película de Warner Bros. Pictures y Village Roadshow Pictures es producida por Miller y su socio de toda la vida, el productor nominado al Oscar Doug Mitchell (“Mad Max: Fury Road”, “Babe”), bajo su compañía Kennedy Miller Mitchell, con sede en Australia.</p>
+                            <a href="#moredetails" class="btn" onclick="mostrarVideo('./trailer/Y2meta.app-FURIOSA Tráiler Español Latino Subtitulado (2024) Mad Max-(1080p).mp4')">Trailer</a>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h1>OSA</h1>
+                        <h3></h3>
+                    </div>
+                </div>
+    
+                <div class="slide">
+                    <img src="imagenes/32.png" alt="">
+                    <div class="left-info">
+                        <div class="titulo-h1">
+                            <h1>INTENSA</h1>
+                        </div>
+                        <div class="content">
+                            <p>Con base en el Cuartel General, el centro de control dentro de la mente de Riley, una niña de 11 años de edad, cinco Emociones tienen mucho trabajo. Ellas están lideradas por la optimista Alegría cuya misión es asegurarse de que Riley permanezca feliz. Temor encabeza la seguridad, Furia asegura que todo sea justo y Desagrado impide que Riley se intoxique, tanto física como socialmente. Tristeza no está exactamente segura de cuál es su rol y, francamente, nadie lo sabe.</p>
+                            <a href="#moredetails" class="btn" onclick="mostrarVideo('../trailer/Y2meta.app - IntensaMente 2 _ Tráiler Oficial _ Doblado con subtítulos descriptivos-(1080p).mp4')">Trailer</a>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h1>MENTE 2</h1>
+                        <h3></h3>
+                    </div>
+                </div>
+            </div>
+            <div id="videoModal" class="modalvideo">
+                <div class="modal-contentvideo">
+                    <span class="cerrarvideo" onclick="cerrarVideo()">&times;</span>
+                    <video id="videoElement" controls>
+                        <!-- La fuente del video se establecerá dinámicamente desde JavaScript -->
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                </div>
+            </div>
+    
+            <div class="navigation">
+                <span class="prev-btn"><i class="fa-solid fa-chevron-left fa-3x"></i></span>
+                <span class="next-btn"><i class="fa-solid fa-chevron-right fa-3x"></i></span>
+            </div>
+    
+        </section>
     <h2 class="cartelera tracking-in-contract" id="peliculas">Cartelera</h2>
     <!-- seccion-peliculas -->
-    <section class="seccion-peliculas"> 
+    <section class="seccion-peliculas "> 
         <div class="contenedor scale-up-horizontal-center">
 
             <!-- Primera fila de 4 imágenes -->
-            <div class="fila">
+            <ul class="fila">
                 <!-- Película 1 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/el diario greg.jpg" alt="Imagen 1">
                     <button class="boton-informacion" id="mostrarDetalles1">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 2 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/5nights.jpg" alt="Imagen 2">
                     <button class="boton-informacion" id="mostrarDetalles2">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 3 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/wonka.jpg" alt="Imagen 3">
                     <button class="boton-informacion" id="mostrarDetalles3">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 4 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/capitanaM.jpg" alt="Imagen 4">
                     <button class="boton-informacion" id="mostrarDetalles4">Más información</button>
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <!-- Segunda fila de 4 imágenes -->
-            <div class="fila">
+            <ul class="fila">
                 <!-- Película 5 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/oppenheimer.jpg" alt="Imagen 5">
                     <button class="boton-informacion" id="mostrarDetalles5">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 6 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/napoleon.jpg" alt="Imagen 6">
                     <button class="boton-informacion" id="mostrarDetalles6">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 7 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/leo.jpg" alt="Imagen 7">
                     <button class="boton-informacion" id="mostrarDetalles7">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 8 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/assasinlunajpg.jpg" alt="Imagen 8">
                     <button class="boton-informacion" id="mostrarDetalles8">Más información</button>
-                </div>
-            </div>
+                </li>
+            </ul>
             <!-- tercera fila de 4 imágenes -->
-            <div class="fila">
+            <ul class="fila">
                 <!-- Película 9 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/megalodón.jpg" alt="Imagen 1">
                     <button class="boton-informacion" id="mostrarDetalles9">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 10 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/saw.jpg" alt="Imagen 2">
                     <button class="boton-informacion" id="mostrarDetalles10">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 11 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/noche de paz.jpg" alt="Imagen 3">
                     <button class="boton-informacion" id="mostrarDetalles11">Más información</button>
-                </div>
+                </li>
 
                 <!-- Película 12 -->
-                <div class="marco-imagen">
+                <li class="marco-imagen">
                     <img src="imagenes/avatar2.jpg" alt="Imagen 4">
                     <button class="boton-informacion" id="mostrarDetalles12">Más información</button>
-                </div>
-            </div>
+                </li>
+            </ul>
+            <!-- modal para luego con js muestre unformacion -->
             <div id="modal" class="modal">
                 <div class="contenido-modal">
                     <span class="cerrar" id="cerrar">&times;</span>
@@ -273,8 +276,6 @@
             </div>
 
             <div class="video">
-                <!-- Aquí puedes poner el código para insertar el video -->
-                <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
                 <video src="trailer/Y2meta.app-WONKA _ Tráiler Oficial _ Doblado-(1080p).mp4" controls="" width="100%" height="315"></video>
             </div>
 
@@ -282,10 +283,8 @@
         <section>
                 <div class="container">
                     <div class="video">
-                        <!-- Aquí puedes poner el código para insertar el video -->
-                        <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
                         <video src="trailer/Y2meta.app-The Marvels de Marvel Studios _ Tráiler Oficial _ Doblado con subtítulos descriptivos-(1080p).mp4" controls="" width="100%" height="315"></video>
-                </div>
+                    </div>
                 <div class="descripcion">
                         <h3 class="cartelera-3">The Marvels de Marvel Studios</h3>
                         <p class="info-peli">Esta es la descripción del video. Puedes agregar más contenido aquí según tus necesidades.</p>
@@ -332,18 +331,14 @@
                     <li style="color: aqua;">Genero: Drama / Históricas / cine</li>
                 </ul>  
             </div>
-            <div class="video">
-                <!-- Aquí puedes poner el código para insertar el video -->
-                <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
-                <video src="trailer/Y2meta.app-OPPENHEIMER - Tráiler Oficial - Subtitulado - (Universal Studios) - HD-(1080p).mp4" controls="" width="100%" height="315"></video>
+                <div class="video">
+                    <video src="trailer/Y2meta.app-OPPENHEIMER - Tráiler Oficial - Subtitulado - (Universal Studios) - HD-(1080p).mp4" controls="" width="100%" height="315"></video>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
             <div class="video">
-                <!-- Aquí puedes poner el código para insertar el video -->
-                <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
                 <video src="trailer/Y2meta.app-Leo _ Tráiler oficial _ Netflix-(1080p).mp4" controls="" width="100%" height="315"></video>
             </div>
             <div class="descripcion">
@@ -396,8 +391,6 @@
                     </ul>  
                 </div>
                 <div class="video">
-                    <!-- Aquí puedes poner el código para insertar el video -->
-                    <!-- Por ejemplo, si es un video de YouTube, puedes usar el código de inserción proporcionado por YouTube -->
                     <video src="trailer/Y2meta.app-NAPOLEÓN. Tráiler oficial en español HD. Exclusivamente en cines .-(1080p).mp4" controls="" width="100%" height="315"></video>
                 </div>
             </div>

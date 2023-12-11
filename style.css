@@ -358,6 +358,7 @@ h1{
     border-radius: 8px;
     padding: 20px;
     margin: 0 10px 20px 10px;
+    list-style: none;
 }
 
 .marco-imagen img {
@@ -399,7 +400,7 @@ h1{
 
 .star:hover,
 .star.selected {
-    color: #ffcc00; /* Cambia el color al pasar el ratón o cuando está seleccionado */
+    color: #ac9124; /* Cambia el color al pasar el ratón o cuando está seleccionado */
 }
 
 .navigation span:nth-child(1){
@@ -520,10 +521,4 @@ h1{
     text-decoration: none;
     cursor: pointer;
 }
-
-
-@media screen {
-    
-}
-
 

@@ -18,7 +18,7 @@ const imagenModal = document.getElementById("imagenModal");
 const informacionModal = document.getElementById("informacionModal");
 
 // Agrega eventos de clic a los botones de "Más información"
-btnDetalles1.addEventListener("click", mostrarModal.bind(null, "/imagenes/24.png","Para Greg las vacaciones de invierno están siendo un poco duras, tras quedarse atrapado con su familia en la nieve y preocupado por conseguir una nueva consola." ));
+btnDetalles1.addEventListener("click", mostrarModal.bind(null, `./imagenes/24.png`,"Para Greg las vacaciones de invierno están siendo un poco duras, tras quedarse atrapado con su familia en la nieve y preocupado por conseguir una nueva consola." ));
 btnDetalles2.addEventListener("click", mostrarModal.bind(null, "./imagenes/5nights.jpg",
 "Un guardia de seguridad con problemas comienza a trabajar en Freddy Fazbear's Pizza. Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de superar."));
 btnDetalles3.addEventListener("click", mostrarModal.bind(null, "./imagenes/wonka.jpg",

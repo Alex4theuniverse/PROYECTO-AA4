@@ -65,8 +65,8 @@ function mostrarModal(imagenSrc, informacion) {
     const modalAncho = modal.offsetWidth;
     const modalAlto = modal.offsetHeight;
 
-    const leftPos = (ventanaAncho - modalAncho) / 1;
-    const topPos = (ventanaAlto - modalAlto) / 1;
+    const leftPos = (ventanaAncho - modalAncho) / 0;
+    const topPos = (ventanaAlto - modalAlto) / 0;
 
    // Aplica la posición al modal
     modal.style.left = leftPos + "px";
